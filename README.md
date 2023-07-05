@@ -184,7 +184,7 @@ We used this script:
 #usage: 
 #MakeConsensus.sh bamfile reference output
 #NOTE: this is a haploid consensus for mitochondria
-
+module purge
 module load SAMtools/1.8-gimkl-2017a BCFtools/1.8-gimkl-2017a picard/2.1.0 # loading modules on nesi
 
 #file="remapping/ill01.bam"
